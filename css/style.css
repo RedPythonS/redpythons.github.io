@@ -1,0 +1,197 @@
+body {
+    background: rgb(228, 248, 231);
+    height: 100vh;
+}
+.navegacion {
+    position: absolute;
+    float: none;
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    height: 110px;
+    z-index: 20;
+}
+
+ul {
+    display: inline-flex;
+    list-style-type: none;
+    height: 60px;
+    margin: 0 1px;
+    padding: 0 30px;
+    align-items: center;
+    background-image: linear-gradient(rgb(197, 224, 208), rgb(228, 248, 231));
+}
+li {
+    color: rgb(6, 151, 1);
+    padding: 8px;
+    margin-inline: 30px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+li:hover {
+    color:rgb(41, 41, 41);
+    background: rgb(228, 248, 231);
+    padding-bottom: 10px;
+}
+
+.fotoCV {
+    position: relative;
+    padding: 40px;  
+}
+#test {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 210px;
+    width: 40%;
+    border-radius: 10px;
+    overflow: hidden;
+    transform: translate(-50%,40%);
+    background-image: linear-gradient(0deg, rgba(228,248,231,1) 0%, rgb(13, 97, 47) 30%, gba(197,224,208,1) 70%, rgba(228,248,231,1) 100%);
+    box-shadow: 3px 4px 12px gray;
+    background: rgb(220, 241, 223);
+}
+
+#fotoPrincipal {
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.personal {
+    position: relative;
+    padding: 40px;
+}
+
+.personal .tarjetaPersonal {
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    left: 50%;
+    height: 210px;
+    width: 40%;
+    border-radius: 10px;
+    overflow: hidden;
+    transform: translate(-50%,120%);
+    box-shadow: 3px 4px 12px rgb(75, 175, 52);
+    background: rgb(116, 241, 135);
+}
+
+.experiencia {
+    position: relative;
+    
+    padding: 40px;
+}
+
+.tarjetaExperiencia {
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    left: 50%;
+    height: 210px;
+    width: 40%;
+    border-radius: 10px;
+    overflow: hidden;
+    transform: translate(-50%,200%);
+    
+    box-shadow: 3px 4px 12px rgb(153, 102, 43);
+    background: rgb(201, 123, 50);
+}
+
+.habilidades {
+    position: relative;
+    padding: 40px;
+}
+
+.tarjetaHabilidades {
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    left: 50%;
+    height: 210px;
+    width: 40%;
+    border-radius: 10px;
+    overflow: hidden;
+    transform: translate(-50%,280%);
+    
+    box-shadow: 3px 4px 12px rgb(57, 67, 202);
+    background: rgb(83, 112, 241);
+
+}
+
+.espacio {
+    position: relative;
+    padding: 40px;
+}
+
+.espacio span {
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    left: 50%;
+    height: 50px;
+    width: 40%;
+    border-radius: 10px;
+    overflow: hidden;
+    transform: translate(-50%,1500%);
+
+    background: transparent;
+}
+
+.footer {
+    position: fixed;
+    display: block;
+    bottom: 10px;
+    top: auto;
+    margin: 0;
+    width: 50%;
+    left: 50%;
+    right: 0;
+    transform: translate(-50%,0);
+    background: black;
+    border-radius: 8px;
+    box-shadow: 3px 4px 12px rgb(58, 58, 58),3px -4px 12px rgb(58, 58, 58);
+    opacity: 0.7;
+
+}
+.footer span {
+    align-items: center;
+    align-content: center;
+}
+
+.footer span p {
+    color: rgb(168, 67, 163);
+    text-shadow: 2px 2px 7px rgb(0, 97, 39);
+    font-size: 16px;
+    text-align: end;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+
+@media only screen and (max-width: 560px) {
+
+    body {
+        margin: 0;
+        padding: 0 0 10px 0;
+        border: none;
+    }
+
+    .navegacion {
+        top: 10%;
+    }
+    .navegacion nav ul li {
+        margin-inline: 6px;
+    }
+
+    #fotoThumb {
+        height: 60px;
+        width: 60px;
+    }
+}
