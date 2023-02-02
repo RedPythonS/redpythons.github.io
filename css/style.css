@@ -10,7 +10,9 @@ body {
 
 h4 {
     font-family: 'Josefin Sans', sans-serif;
-    padding-left: 3px;
+    padding: 0;
+    margin: 6px;
+
 }
 .navegacion {
     position: absolute;
@@ -159,12 +161,14 @@ li:hover {
     font-family: 'Raleway', sans-serif;
     text-align: justify;
     padding: 10px;
+    font-size: 15px;
+    margin: 0;
 }
 
 .tarjetaHabilidades button {
     padding-left: 18px;
-    height: 35px;
-    border-radius: 4px;
+    height: 30px;
+    border-radius: 9px;
     font-size: 14px;
 }
 .tarjetaHabilidades button:hover {
