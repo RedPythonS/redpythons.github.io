@@ -1,10 +1,10 @@
 {
   "results": [
     {
-      "gender": "female",
+      "gender": "male",
       "name": {
-        "title": "Miss",
-        "first": "Jennie",
+        "title": "Mr",
+        "first": "Jen",
         "last": "Nichols"
       },
       "location": {
@@ -25,7 +25,7 @@
           "description": "Adelaide, Darwin"
         }
       },
-      "email": "jennie.nichols@example.com",
+      "email": "jen.nichols@example.com",
       "login": {
         "uuid": "7a0eed16-9430-4d68-901f-c0d4c1c3bf00",
         "username": "yellowpeacock117",
@@ -36,7 +36,7 @@
         "sha256": "48df5229235ada28389b91e60a935e4f9b73eb4bdb855ef9258a1751f10bdc5d"
       },
       "dob": {
-        "date": "1992-03-08T15:13:16.688Z",
+        "date": "1972-03-08T15:13:16.688Z",
         "age": 30
       },
       "registered": {
@@ -54,7 +54,14 @@
         "medium": "https://randomuser.me/api/portraits/med/men/75.jpg",
         "thumbnail": "https://randomuser.me/api/portraits/thumb/men/75.jpg"
       },
-      "nat": "US"
+      "nat": "AUSTRALIAN",
+      "aim": {
+        "one": "Form a family",
+        "two": "Visit Egypt",
+        "three": "Buy a Mustang",
+        "four": ""
+      },
+      "experience": "Four years of babysitting. Attention in a call center. Completes up to fourth year of law. Volunteer help cleaning posters."
     }
   ],
   "info": {
